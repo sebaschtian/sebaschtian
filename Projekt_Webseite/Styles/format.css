@@ -6,7 +6,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
-body {
+body { 
   background-color: rgb(2, 46, 34);
   margin: 0;
   padding: 0;
@@ -86,10 +86,10 @@ article .box{
 .Produktdetails  .thumbnail img {
   max-width: 100px;
   padding: 50px;
-  border: 1px solid #ccc; 
-  background-color: #aa7804;
+  border: 1px solid #ccc;
+  background-color: #aa7804; 
   margin-right: 0px;
-  opacity: 0.8;
+  opacity: 0.9;
   margin-left: 100px;
 }
 .Produktdetails .thumbnail {
@@ -108,7 +108,7 @@ article .box{
   opacity: 1;
   box-shadow: #111; 
 }
-      /*Beschreibungs text*/
+    /*Beschreibungs text*/
 .Produktdetails .texth2 .textp{
   margin: 0 0 20px 0;
   padding: 50px;
@@ -199,11 +199,11 @@ article .box{
 
 /*Index Sektion, Artikel*/
 section {
-    padding:  0px 100px;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
+  padding:  0px 100px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
 }
 
 section .box {
@@ -217,30 +217,28 @@ section .box {
 }
 
 section  .box h2 {
-    margin: 0 0 20px;
-    padding: 20px;
-    font-size: 48px;
-    text-transform: uppercase;
-    background: linear-gradient(to right,rgb(24, 93, 191), rgb(0, 155, 142));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    writing-mode: vertical-lr;
+  margin: 0 0 20px;
+  padding: 20px;
+  font-size: 48px;
+  text-transform: uppercase;
+  background: linear-gradient(to right,rgb(24, 93, 191), rgb(0, 155, 142));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  writing-mode: vertical-lr;
 }
-
-/*section .box p { noch nicht benötigt; ist für paragraph bei My Products
-  margin: 0;
-  padding: 0;
-  font-size: 20px;
-  color:black;
-  max-width: 25rem;
-  padding: 1rem 0rem;format.css
-}*/
 
 /*hover Bilder Index Sektion*/
 .RGBSpiegel {
   position: relative;
   width: 100%;
+}
+
+section .image:hover {
+  transform: scale(1.2);
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.7);
+  opacity: 0.7;
 }
 
 .image {
