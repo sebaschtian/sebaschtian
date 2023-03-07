@@ -1,0 +1,23 @@
+header{
+    border:2px solid green; 
+}
+content{
+    border:2px solid red;
+    float: right;
+    width: 70%;
+    height:auto; 
+}
+#sidebar{
+    border:2px solid yellow;
+    float: left;
+    width: 20%;
+    height:auto; 
+}
+#footer{
+    border:2px solid blue;
+    clear:both; 
+}
+div{
+    margin: 1%; 
+}
+    
