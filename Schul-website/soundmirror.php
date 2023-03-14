@@ -1,6 +1,7 @@
+<!DOCTYPE HTML>
 <html>
 	<?php
-	    include ("soundphp/head.php");
+	    include ("head.php");
 	?>
 
 	<body>

@@ -1,6 +1,7 @@
 <section class="Produktdetails">
     <div class="textp">
-        <p>: <br> <br>
+        <p>Dieser Umwerfende Spiegel kann nicht nur gut aussehen er klingt auch verdammt gut. Durch den eingebauten Mitteltöner, mit dem man sich mit Bloototh verbinden kann, kann auch seine Beleuchtung dem Klang anpassen.
+            Auch dieses Produkt gibt es in 3 Varianten: <br> <br>
             <label class="Hakenbox">Holz Rahmen
                 <input type="radio" name="radio">
                 <span class="checkmark"></span>

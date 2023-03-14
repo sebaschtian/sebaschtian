@@ -17,11 +17,14 @@
             <i class="fas fa-bars"></i>
         </label>
         <ul>
-           <li><a href="index.html">Home</a></li>
-           <li><a href="index.html#Ueber_uns">About us</a></li>
-           <li><a href="soundmirror.html">Sound Mirror</a></li>
-           <li><a class="active" href="#">RGB Mirror</a></li>
-           <li><a href="Bienenwaben.html">RGBees</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="index.php#Ueber_uns">About us</a></li>
+            <li><a href="soundmirror.php">Sound Mirror</a></li>
+            <li><a class="active" href="#">RGB Mirror</a></li>
+            <li><a href="Bienenwaben.php">RGBees</a></li>
+            <div class="linken">
+                <a href=Spiegel.php><img src="images/Germany.jpg" alt="Picture" class="image"></a>
+            </div>
         </ul>
      </nav>
      
@@ -54,9 +57,9 @@
             <a href="images/RGB_Spiegel.avif"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image"></a>
             <a href="images/RGB_Spiegel.avif"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image"></a>
             <a href="images/RGB_Spiegel.avif"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image"></a>
-        </div>
+        </div>RGB_Spiegel.avif
         <div class="texth2">
-            <h2> RGB Spiegel</h2>
+            <h2> RGB Mirror</h2>
         </div>
 
     </section>
@@ -95,15 +98,15 @@
     </div>
     <div class="Andere_Produkte">
         <ul class="unordered">
-            <li> <a href="Bienenwaben.html"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image" style="width:45%"></a>RGBees</li>
-            <li> <a href="soundmirror.html"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image" style="width:45%"></a>soundmirror</li>
+            <li> <a href="Bienenwaben.php"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image" style="width:45%"></a>RGBees</li>
+            <li> <a href="soundmirror.php"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image" style="width:45%"></a>soundmirror</li>
         </ul>
     </div>
 
     <footer>
         <div class="Copyright">
             <br><br>
-            <a href="impressum.html"> Legal Notice</a>
+            <a href="impressum.php"> Legal Notice</a>
             <br><br>
         </div>
     </footer>

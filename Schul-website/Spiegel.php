@@ -17,11 +17,14 @@
             <i class="fas fa-bars"></i>
         </label>
         <ul>
-           <li><a href="index.php">Home</a></li>
-           <li><a href="index.php#Ueber_uns">About us</a></li>
-           <li><a href="soundmirror.php">Sound Mirror</a></li>
-           <li><a class="active" href="#">RGB Spiegel</a></li>
-           <li><a href="Bienenwaben.php">RGBees</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="index.php#Ueber_uns">About us</a></li>
+            <li><a href="soundmirror.php">Sound Mirror</a></li>
+            <li><a class="active" href="#">RGB Spiegel</a></li>
+            <li><a href="Bienenwaben.php">RGBees</a></li>
+            <div class="linken">
+                <a href=Spiegelen.php><img src="images/englisch.png" alt="Picture" class="image"></a>
+            </div>
         </ul>
      </nav>
      
@@ -64,16 +67,22 @@
         <div class="Uebers_Produkt ">
             <table>
                 <tr>
-                    <td class="head">Beleuchtung<br><br>Die abgerundete beleuchtung kann in 16,8 Miollionen Farben hell erleuchten. Sie kann auch in Unterschiedlichen Farben gleichzeitig leuchten, dass erm&ouml;glicht der besondere RGBic LED-Streifen.</td>
+                    <td class="head">Beleuchtung<br><br>Die abgerundete beleuchtung kann in 16,8 Miollionen Farben hell 
+                    erleuchten. Sie kann auch in Unterschiedlichen Farben gleichzeitig leuchten, dass erm&ouml;glicht der 
+                    besondere RGBic LED-Streifen.</td>
                     <td><img src="images/RGB_Spiegel.avif" alt="Picture" class="image" style="width:45%"></td>
                 </tr>
                 <br>
                 <tr>
                     <td><img src="images/RGB_Spiegel.avif" alt="Picture" class="image" style="width: 45%"></td>
-                    <td class="head2">Benutzerfreundlich<br><br>Er glänzt auch im Schatten. Um dies zu erreichen muss man den Spiegel zuerst aufbauen, dies gelingt hervorragend mit unserer Anleitung, aber auch ohne ist es Kinderleicht. Wir bemühen uns falls der Aufbau mal scheitern sollte Ersatz anzubieten. Für Sie natürlich mit hervorragend schnellem Kundensupport der rund um Die Uhr für Sie erreichbar ist.</td>
+                    <td class="head2">Benutzerfreundlich<br><br>Er gl&auml;nzt auch im Schatten. Um dies zu erreichen muss
+                     man den Spiegel zuerst aufbauen, dies gelingt hervorragend mit unserer Anleitung, aber auch ohne ist 
+                     es Kinderleicht. Wir bem&uuml;hen uns falls der Aufbau mal scheitern sollte Ersatz anzubieten. Für Sie 
+                     nat&uuml;rlich mit hervorragend schnellem Kundensupport der rund um Die Uhr für Sie erreichbar ist.</td>
                 </tr>
                 <tr>
-                    <td class="head">Beeindruckend groß<br><br>Der Spiegel sticht nicht nur mit seinem Design ins Auge, auch mit seiner umfassenden gr&ouml;&szlig;e ist er ganz vorne mit dabei. </td>
+                    <td class="head">Beeindruckend groß<br><br>Der Spiegel sticht nicht nur mit seinem Design ins Auge,
+                     auch mit seiner umfassenden gr&ouml;&szlig;e ist er ganz vorne mit dabei. </td>
                     <td><img src="images/RGB_Spiegel.avif" alt="Picture" class="image" style="width:45%"></td>
                 </tr>
             </table>
@@ -90,13 +99,9 @@
         </ul>
     </div>
 
-    <footer>
-        <div class="Copyright">
-            <br><br>
-            <a href="impressum.php"> Impressum</a>
-            <br><br>
-        </div>
-    </footer>
+    <?php 
+        include_once("generalphp/footer.php"); 
+    ?>
 
 
 </body>

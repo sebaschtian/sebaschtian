@@ -26,18 +26,46 @@
     </nav>
 
 
-    <section>
-        <div class="Produkt">
-              
-        </div>
-    </section>
-  
+    <section class="Produktdetails">
+    <div class="textp">
+        <p>Das besondere an diesem schönen Produkt ist,dass es kein Spiegel ist, sondern Schallschutzmatten, 
+            die das RGB Licht aus dem Hintergrund leicht durscheinen lassen und besämftigen. Dazu kann man 
+            noch entscheiden, was zum Koontrast dienen soll:<br> <br>
+
+            <label class="Hakenbox">Buchen Holz
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+            </label>
+            <label class="Hakenbox">Walnus Holz
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+            </label>
+            <label class="Hakenbox">Schwarze Schallschutzmatten
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+            </label>
+        </p>
+    </div>
+    <div class="product">
+        <img src="images/RGB_Spiegel.avif" alt="Product Image">
+    </div>
+    <div class="thumbnail">
+        <a href="images/RGB_Spiegel.avif"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image"></a>
+        <a href="images/RGB_Spiegel.avif"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image"></a>
+        <a href="images/RGB_Spiegel.avif"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image"></a>
+    </div>
+    <div class="texth2">
+        <h2> RGBees</h2>
+    </div>
+</section>
+
   
     <article>
         <div class="Uebers_Produkt">
             <table>
                 <tr>
-                    <td class="head">Unendliche Kombinationen<br><br>Die RGB Bienenwaben, die in 3 Verschiedenen gr&ouml;ssen wunderbar Leuchten, kann man in unendlich vielen kombinationen an die Wand oder Decke bringen.</td>
+                    <td class="head">Unendliche Kombinationen<br><br>Die RGB Bienenwaben, die in 3 Verschiedenen gr&ouml;ssen
+                     wunderbar Leuchten, kann man in unendlich vielen kombinationen an die Wand oder Decke bringen.</td>
                     <td><img src="images/RGB_Spiegel.avif" alt="Picture" class="image" style="width:45%"></td>
                 </tr>
                 <tr>

@@ -19,10 +19,10 @@
          </label>
          <ul>
             <li><a class="active" href="#">Home</a></li>
-            <li><a href="index.html#Ueber_uns">About us</a></li>
-            <li><a href="soundmirror.html">Sound Mirror</a></li>
-            <li><a href="Spiegel.html">RGB Spiegel</a></li>
-            <li><a href="Bienenwaben.html">RGBees</a></li>
+            <li><a href="index.php#Ueber_uns">About us</a></li>
+            <li><a href="soundmirror.php">Sound Mirror</a></li>
+            <li><a href="Spiegel.php">RGB Spiegel</a></li>
+            <li><a href="Bienenwaben.php">RGBees</a></li>
          </ul>
     </nav>
      
@@ -32,21 +32,21 @@
 
             <h2>My Products</h2>
             <div class="RGBSpiegel">
-                <a href="Spiegel.html"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image" style="width:90%"></a>
+                <a href="Spiegel.php"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image" style="width:90%"></a>
                 <div class="middle">
                     <div class="hidden">RGB Spiegel</div>
                 </div>
             </div>
 
             <div class="RGBSpiegel">
-                <a href="soundmirror.html"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image" style="width:90%"></a>
+                <a href="soundmirror.php"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image" style="width:90%"></a>
                 <div class="middle">
                     <div class="hidden">soundmirror</div>
                 </div>
             </div>
 
             <div class="RGBSpiegel">
-                <a href="Bienenwaben.html"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image" style="width:90%"></a>
+                <a href="Bienenwaben.php"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image" style="width:90%"></a>
                 <div class="middle">
                     <div class="hidden">RGBees</div>
                 </div>
@@ -68,7 +68,7 @@
     <footer>
         <div class="Copyright">
             <br><br>
-            <a href="impressum.html">Impressum</a>
+                <a href="impressum.php">Impressum</a>
             <br><br>
         </div>
     </footer>
