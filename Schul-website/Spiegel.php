@@ -31,7 +31,7 @@
 
      <section class="Produktdetails">
         <div class="textp">
-            <p>Das ist ein Spiegel mit integriertem RGBic band, das nach Wunsch sogar die farben mit dem Handy wechseln
+            <p>Das ist ein Spiegel mit integriertem RGBic LED-Streifen, das nach Wunsch sogar die farben mit dem Handy wechseln
                 l&auml;sst.<br> Der Spiegel ist leicht zu Montieren und sehr benutzerfreundlich in seiner Ausf&uuml;hrung. 
                 <br> Es gibt 3 verschiedene Rahmen für den Spiegel: <br> <br>
 
@@ -53,10 +53,10 @@
             <img src="images/RGB_Spiegel.avif" alt="Product Image">
         </div>
         <div class="thumbnail">
-            <a href="images/RGB_Spiegel.avif"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image"></a>
-            <a href="images/RGB_Spiegel.avif"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image"></a>
-            <a href="images/RGB_Spiegel.avif"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image"></a>
-        </div>
+            <a href="images/RGB_Spiegel.avif" target="blank"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image"></a>
+            <a href="images/RGB_Spiegel.avif" target="blank"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image"></a>
+            <a href="images/RGB_Spiegel.avif" target="blank"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image"></a>
+        </div> 
         <div class="texth2">
             <h2> RGB Spiegel</h2>
         </div>
@@ -82,7 +82,7 @@
                 </tr>
                 <tr>
                     <td class="head">Beeindruckend groß<br><br>Der Spiegel sticht nicht nur mit seinem Design ins Auge,
-                     auch mit seiner umfassenden gr&ouml;&szlig;e ist er ganz vorne mit dabei. </td>
+                     auch mit seiner umfassenden gr&ouml;&szlig;e ist er ganz vorne mit dabei.</td>
                     <td><img src="images/RGB_Spiegel.avif" alt="Picture" class="image" style="width:45%"></td>
                 </tr>
             </table>
@@ -92,15 +92,19 @@
     <div class="Produkte_head">
         <h2>Andere Produkte die Sie Interessieren k&ouml;nnten</h2>
     </div>
+
     <div class="Andere_Produkte">
-        <ul class="unordered">
-            <li> <a href="Bienenwaben.php"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image" style="width:45%"></a>RGBees</li>
-            <li> <a href="soundmirror.php"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image" style="width:45%"></a>soundmirror</li>
-        </ul>
+        <div class="Other_Products">
+            <a href="Bienenwaben.php"><img src="images/RGB_Spiegel.png" alt="Picture" class="image" style="width:90%">soundmirror</a>
+        </div>
+
+        <div class="Other_Products">
+            <a href="soundmirror.php"><img src="images/RGB_Spiegel.png" alt="Picture" class="image" style="width:90%">RGB Spiegel</a>
+        </div>
     </div>
 
     <?php 
-        include_once("generalphp/footer.php"); 
+        include("generalphp/footer.php"); 
     ?>
 
 

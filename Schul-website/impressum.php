@@ -43,11 +43,12 @@
                             <br>
                             <p>Telefon: 07522 930660</p>
                             <p>E-Mail: sebastian.rieg@gmx.de</p><br><br>
-                    <h3>Verantwortliche i.S.d. § 55 Abs. 2 RStV:</h3><br>
+                    <h3>Verantwortliche i.S.d. &sect; 55 Abs. 2 RStV:</h3><br>
                         <p>Sebastian Rieg, Danneckerweg 22, 88239 Wangen im Allg&auml;u</p>
             </div>
             <div class="Info">
-                <a href="https://de.wikipedia.org/wiki/Impressumspflicht" target="_blank">Informationen über das Impressum</a>
+                <a href=”https://www.disclaimer.de/disclaimer.htm?″ target="blank">Haftungsausschluss</a>
+                <a href="https://de.w3docs.com/" target="_blank">Hyperlink</a>
             </div>
         </section>
         

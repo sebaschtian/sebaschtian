@@ -31,8 +31,7 @@
 
      <section class="Produktdetails">
         <div class="textp">
-            <p>
-                This is a mirror with an integrated RGBic band that can even be used to change 
+            <p>This is a mirror with an integrated RGBic band that can even be used to change 
                 colors with a mobile phone if desired. The mirror is easy to assemble and very 
                 user-friendly in its design. There are 3 different frames for the mirror: <br> <br>
 
@@ -54,10 +53,11 @@
             <img src="images/RGB_Spiegel.avif" alt="Product Image">
         </div>
         <div class="thumbnail">
-            <a href="images/RGB_Spiegel.avif"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image"></a>
-            <a href="images/RGB_Spiegel.avif"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image"></a>
-            <a href="images/RGB_Spiegel.avif"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image"></a>
-        </div>RGB_Spiegel.avif
+            <a href="images/RGB_Spiegel.avif" target="blank"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image"></a>
+            <a href="images/RGB_Spiegel.avif" target="blank"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image"></a>
+            <a href="images/RGB_Spiegel.avif" target="blank"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image"></a>
+        </div> 
+
         <div class="texth2">
             <h2> RGB Mirror</h2>
         </div>
@@ -69,7 +69,7 @@
         <div class="Uebers_Produkt ">
             <table>
                 <tr>
-                    <td class="head">lighting<br><br>
+                    <td class="head">Lighting<br><br>
                         The rounded lighting can shine brightly in 16.8 million colors. It can also light up in 
                         different colors at the same time, thanks to the special RGBic LED strip.</td>
                     <td><img src="images/RGB_Spiegel.avif" alt="Picture" class="image" style="width:45%"></td>
@@ -99,17 +99,13 @@
     <div class="Andere_Produkte">
         <ul class="unordered">
             <li> <a href="Bienenwaben.php"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image" style="width:45%"></a>RGBees</li>
-            <li> <a href="soundmirror.php"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image" style="width:45%"></a>soundmirror</li>
+            <li> <a href="soundmirror.php"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image" style="width:45%"></a>Soundmirror</li>
         </ul>
     </div>
 
-    <footer>
-        <div class="Copyright">
-            <br><br>
-            <a href="impressum.php"> Legal Notice</a>
-            <br><br>
-        </div>
-    </footer>
+    <?php 
+        include("generalphp/footer.php"); 
+    ?>
 
 
 </body>
