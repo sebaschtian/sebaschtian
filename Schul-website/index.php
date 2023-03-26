@@ -23,33 +23,34 @@
             <li><a class="active" href="#">Home</a></li>
             <li><a href="index.php#Ueber_uns">About us</a></li>
             <li><a href="soundmirror.php">Sound Mirror</a></li>
-            <li><a href="Spiegel.php">RGB Spiegel</a></li>
-            <li><a href="Bienenwaben.php">RGBees</a></li>
+            <li><a href="spiegel.php">RGB Spiegel</a></li>
+            <li><a href="bienenwaben.php">RGBees</a></li>
          </ul>
 
     </nav>
      
     
     <section>
-        <div data-aos="Zoom-in-left" class="box">
+        <div class="box">
 
             <h2>My Products</h2>
+            
             <div class="RGBSpiegel">
-                <a href="Spiegel.php"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image" style="width:90%"></a>
+                <a href="spiegel.php"><img src="images/RGB_Spiegel.jpg" alt="Picture" class="image" style="width:90%"></a>
                 <div class="middle">
                     <div class="hidden">RGB Spiegel</div>
                 </div>
             </div>
 
             <div class="RGBSpiegel">
-                <a href="soundmirror.php"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image" style="width:90%"></a>
+                <a href="soundmirror.php"><img src="images/RGB_Spiegel.jpg" alt="Picture" class="image" style="width:90%"></a>
                 <div class="middle">
                     <div class="hidden">Soundmirror</div>
                 </div>
             </div>
 
             <div class="RGBSpiegel">
-                <a href="Bienenwaben.php"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image" style="width:90%"></a>
+                <a href="bienenwaben.php"><img src="images/RGB_Spiegel.jpg" alt="Picture" class="image" style="width:90%"></a>
                 <div class="middle">
                     <div class="hidden">RGBees</div>
                 </div>
@@ -59,7 +60,7 @@
     </section>
 
 
-    <article data-aos="zoom-in-right" class="nr1" id="Ueber_uns">
+    <article class="nr1" id="Ueber_uns">
         <div class="box">
             <h2>About us</h2>
             <p>HI! I'm Sebastian, <br> welcome to my brand new Website. <br> <br> 

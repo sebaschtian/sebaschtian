@@ -22,8 +22,8 @@
                 <li><a href="index.php">Home</a></li>
                 <li><a href="index.php#ueber_uns">About us</a></li>
                 <li><a href="soundmirror.php">Sound Mirror</a></li>
-                <li><a href="Spiegel.php">RGB Spiegel</a></li>
-                <li><a href="Bienenwaben.php">RGBees</a></li>
+                <li><a href="spiegel.php">RGB Spiegel</a></li>
+                <li><a href="bienenwaben.php">RGBees</a></li>
             </ul>
         </nav>
         
@@ -47,8 +47,8 @@
                         <p>Sebastian Rieg, Danneckerweg 22, 88239 Wangen im Allg&auml;u</p>
             </div>
             <div class="Info">
-                <a href=”https://www.disclaimer.de/disclaimer.htm?″ target="blank">Haftungsausschluss</a>
-                <a href="https://de.w3docs.com/" target="_blank">Hyperlink</a>
+                <!--<a href=”https://www.disclaimer.de/disclaimer.htm?″ target="blank">Haftungsausschluss</a>-->
+                <a href="https://de.w3docs.com/" target="_blank">Selber eine Internetseite Programmieren?</a>
             </div>
         </section>
         

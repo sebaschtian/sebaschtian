@@ -25,12 +25,21 @@
         <h2>Andere Produkte die Sie Interessieren k&ouml;nnten</h2>
     </div>
 
-    <div class="Andere_Produkte">
-        <div class="Other_Products">
-            <a href="Bienenwaben.php"><img src="images/RGB_Spiegel.png" alt="Picture" class="image" style="width:90%">soundmirror</a>
+    <div class="Product">
+        <div class="Produkte_head">
+            <h2>Andere Produkte die Sie Interessieren k&ouml;nnten</h2>
         </div>
-
-        <div class="Other_Products">
-            <a href="Spiegel.php"><img src="images/RGB_Spiegel.png" alt="Picture" class="image" style="width:90%">RGB Spiegel</a>
+               
+        <div class="Andere_Produkte">
+            <div class="Other_Productsre">
+                <a href="spiegel.php"><img src="images/RGB_Spiegel.jpg" alt="Picture" class="image" style="width:7%"></a>
+                <p>Soundmirror</p>
+            </div>
+               
+            <div class="Other_Productsli">
+                <a href="bienenwaben.php"><img src="images/RGB_Spiegel.jpg" alt="Picture" class="image" style="width:7%"></a>
+                <p>RGB Spiegel</p>
+            </div>
         </div>
     </div>
+    
