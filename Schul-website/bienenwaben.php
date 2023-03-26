@@ -31,24 +31,24 @@
     <section class="Produktdetails">
 
         <form method="post">
-            <div class="textp">
+            <div class="textp" name="pricerechner" method="post" action="phprechner.php">
                 <p>Das Besondere an diesem sch&ouml;nem Produkt ist, dass es kein Spiegel ist, sondern Schallschutzmatten, 
                     die das RGB Licht aus dem Hintergrund leicht durscheinen lassen und bes&auml;mftigen. Dazu kann man 
                     noch entscheiden, was zum Kontrast dienen soll:<br> <br>
 
                 <label class="Hakenbox">Buchen Holz
-                    <input type="radio" name="radio" value="buche">
+                    <input type="radio" name="rbOperator" val-ue="buche">
                     <span class="checkmark"></span>
                 </label>
                 <label class="Hakenbox">Walnus Holz 
-                    <input type="radio" name="radio" value="walnuss">
+                    <input type="radio" name="rbOperator" val-ue="walnuss">
                     <span class="checkmark"></span>
                 </label>
                 <label class="Hakenbox">Eichen Holz 
-                    <input type="radio" name="radio" value="eiche">
+                    <input type="radio" name="rbOperator" val-ue="eiche">
                     <span class="checkmark"></span>
                 </label>
-                <input type="submit" name="input" value="What would it cost?">
+                <input type="submit" name='Ausrechnen' value="What would it cost?">
             </div>
         </form>
 
@@ -93,6 +93,7 @@
             </table>
         </div>
     </article>
+
     <div class="Product">
         <div class="Produkte_head">
             <h2>Andere Produkte die Sie Interessieren k&ouml;nnten</h2>
