@@ -50,12 +50,12 @@
             </p>
         </div>
         <div class="product">
-            <img src="images/RGB_Spiegel.avif" alt="Product Image">
+            <img src="images/Spiegel1.png" alt="Product Image">
         </div>
         <div class="thumbnail">
-            <a href="images/RGB_Spiegel.avif" target="blank"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image"></a>
-            <a href="images/RGB_Spiegel.avif" target="blank"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image"></a>
-            <a href="images/RGB_Spiegel.avif" target="blank"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image"></a>
+            <a href="images/Spiegel3.png" target="blank"><img src="images/Spiegel3.png" alt="Picture" class="image"></a>
+            <a href="images/Spiegel1.png" target="blank"><img src="images/Spiegel1.png" alt="Picture" class="image"></a>
+            <a href="images/Spiegel2.png" target="blank"><img src="images/Spiegel2.png" alt="Picture" class="image"></a>
         </div> 
         <div class="texth2">
             <h2> RGB Spiegel</h2>
@@ -70,11 +70,11 @@
                     <td class="head">Beleuchtung<br><br>Die abgerundete beleuchtung kann in 16,8 Miollionen Farben hell 
                     erleuchten. Sie kann auch in Unterschiedlichen Farben gleichzeitig leuchten, dass erm&ouml;glicht der 
                     besondere RGBic LED-Streifen.</td>
-                    <td><img src="images/RGB_Spiegel.avif" alt="Picture" class="image" style="width:45%"></td>
+                    <td><img src="images/Spiegel3.png" alt="Picture" class="image" style="width:45%"></td>
                 </tr>
                 <br>
                 <tr>
-                    <td><img src="images/RGB_Spiegel.avif" alt="Picture" class="image" style="width: 45%"></td>
+                    <td><img src="images/Spiegel2.png" alt="Picture" class="image" style="width: 45%"></td>
                     <td class="head2">Benutzerfreundlich<br><br>Er gl&auml;nzt auch im Schatten. Um dies zu erreichen muss
                      man den Spiegel zuerst aufbauen, dies gelingt hervorragend mit unserer Anleitung, aber auch ohne ist 
                      es Kinderleicht. Wir bem&uuml;hen uns falls der Aufbau mal scheitern sollte Ersatz anzubieten. Für Sie 
@@ -83,7 +83,7 @@
                 <tr>
                     <td class="head">Beeindruckend groß<br><br>Der Spiegel sticht nicht nur mit seinem Design ins Auge,
                      auch mit seiner umfassenden gr&ouml;&szlig;e ist er ganz vorne mit dabei.</td>
-                    <td><img src="images/RGB_Spiegel.avif" alt="Picture" class="image" style="width:45%"></td>
+                    <td><img src="images/Spiegel1.png" alt="Picture" class="image" style="width:45%"></td>
                 </tr>
             </table>
         </div>
@@ -96,13 +96,13 @@
                
         <div class="Andere_Produkte">
             <div class="Other_Productsre">
-                <a href="bienenwaben.php"><img src="images/RGB_Spiegel.jpg" alt="Picture" class="image" style="width:7%"></a>
-                <p>Soundmirror</p>
+                <a href="bienenwaben.php"><img src="images/Bees1.png" alt="Picture" class="image" style="width:7%"></a>
+                <p>Bienenwaben</p>
             </div>
                
             <div class="Other_Productsli">
-                <a href="soundmirror.php"><img src="images/RGB_Spiegel.jpg" alt="Picture" class="image" style="width:7%"></a>
-                <p>RGB Spiegel</p>
+                <a href="soundmirror.php"><img src="images/Sound1.png" alt="Picture" class="image" style="width:7%"></a>
+                <p>Soundmirror</p>
             </div>
         </div>
     </div>

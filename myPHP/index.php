@@ -36,21 +36,21 @@
             <h2>My Products</h2>
             
             <div class="RGBSpiegel">
-                <a href="spiegel.php"><img src="images/RGB_Spiegel.jpg" alt="Picture" class="image" style="width:90%"></a>
+                <a href="spiegel.php"><img src="images/Spiegel1.png" alt="Picture" class="image" style="width:90%"></a>
                 <div class="middle">
                     <div class="hidden">RGB Spiegel</div>
                 </div>
             </div>
 
             <div class="RGBSpiegel">
-                <a href="soundmirror.php"><img src="images/RGB_Spiegel.jpg" alt="Picture" class="image" style="width:90%"></a>
+                <a href="soundmirror.php"><img src="images/Sound1.png" alt="Picture" class="image" style="width:90%"></a>
                 <div class="middle">
                     <div class="hidden">Soundmirror</div>
                 </div>
             </div>
 
             <div class="RGBSpiegel">
-                <a href="bienenwaben.php"><img src="images/RGB_Spiegel.jpg" alt="Picture" class="image" style="width:90%"></a>
+                <a href="bienenwaben.php"><img src="images/Bees1.png" alt="Picture" class="image" style="width:90%"></a>
                 <div class="middle">
                     <div class="hidden">RGBees</div>
                 </div>

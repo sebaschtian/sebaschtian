@@ -32,37 +32,52 @@
         <section class="Produktdetails">
 
             <form method="post">
-                <div class="textp" method="post" action="phprechner.php">
+                <div class="textp">
                     <p>Das Besondere an diesem sch&ouml;nem Produkt ist, dass es kein Spiegel ist, sondern Schallschutzmatten, 
                         die das RGB Licht aus dem Hintergrund leicht durscheinen lassen und bes&auml;mftigen. Dazu kann man 
                         noch entscheiden, was zum Kontrast dienen soll:<br> <br>
 
-                    <label class="Hakenbox">Buchen Holz
-                        <input type="radio" name="zahl1" val-ue="100">
-                        <span class="checkmark"></span>
-                    </label>
-                    <label class="Hakenbox">Walnus Holz 
-                        <input type="radio" name="zahl1" val-ue="120">
-                        <span class="checkmark"></span>
-                    </label>
-                    <label class="Hakenbox">Eichen Holz 
-                        <input type="radio" name="zahl1" val-ue="50">
-                        <span class="checkmark"></span>
-                    </label>
-                    <input type="submit" name='Ausrechnen' value="What would it cost?">
-                        <br>
-                    <a href="phprechner.php?">Ergebnis anzeigen</a>
+                        <form method="post" action="">
+                        	<label class="Hakenbox">Buchen Holz
+                        		<input type="radio" name="value" value="10" id="value1">
+                        		<span class="checkmark"></span>
+                        	</label>
+    
+                        	<label class="Hakenbox">Walnus Holz 
+                        		<input type="radio" name="value" value="20" id="value2">
+                        		<span class="checkmark"></span>
+                        	</label>
+    
+                        	<label class="Hakenbox">Eichen Holz 
+                        		<input type="radio" name="value" value="30" id="value3">
+                        		<span class="checkmark"></span>
+                        	</label>
+                        	<br>
+    
+                        	<input type="submit" name="submit" value="Was w&uuml;rde es kosten">
+                        </form>
+    
+                        <?php
+                        	$default = 100;
+                        	if(isset($_POST['submit'])){
+                        		$value = $_POST['value'];
+                        		$result = $default + $value;
+                        		echo "Es kostet Ihnen: " . $result;
+                        	}
+                        ?>
+
+                    </p>
                 </div>
             </form>
 
             <div class="product">
-                <img src="images/RGB_Spiegel.jpg" alt="Product Image">
+                <img src="images/Spiegel1.png" alt="Product Image">
             </div>
 
             <div class="thumbnail">
-                <a href="images/RGB_Spiegel.jpg" target="_blank"><img src="images/RGB_Spiegel.jpg" alt="Picture" class="image"></a>
-                <a href="images/RGB_Spiegel.jpg" target="_blank"><img src="images/RGB_Spiegel.jpg" alt="Picture" class="image"></a>
-                <a href="images/RGB_Spiegel.jpg" target="_blank"><img src="images/RGB_Spiegel.jpg" alt="Picture" class="image"></a>
+                <a href="images/Spiegel1.png" target="_blank"><img src="images/Spiegel1.png" alt="Picture" class="image"></a>
+                <a href="images/Spiegel1.png" target="_blank"><img src="images/Spiegel1.png" alt="Picture" class="image"></a>
+                <a href="images/Spiegel1.png" target="_blank"><img src="images/Spiegel1.png" alt="Picture" class="image"></a>
             </div>
 
             <div class="texth2">
@@ -78,10 +93,10 @@
                     <tr>
                         <td class="head">Unendliche Kombinationen<br><br>Die RGB Bienenwaben, die in 3 Verschiedenen gr&ouml;ssen
                         wunderbar Leuchten, kann man in unendlich vielen kombinationen an die Wand oder Decke montieren.</td>
-                        <td><img src="images/RGB_Spiegel.jpg" alt="Picture" class="image" style="width:45%"></td>
+                        <td><img src="images/Spiegel1.png" alt="Picture" class="image" style="width:45%"></td>
                     </tr>
                     <tr>
-                        <td><img src="images/RGB_Spiegel.jpg" alt="Picture" class="image" style="width:45%"></td>
+                        <td><img src="images/Spiegel1.png" alt="Picture" class="image" style="width:45%"></td>
                         <td class="head2">Farbenfreude<br><br>Wie auch in den anderen Produkten, sind hier die selben RGBic
                         Led-Streifen verbaut, die unglaubliches Farbengef&uuml;hl geben. Sie sind voll &uuml;ber unsere eigens entwickelte
                         App einstellbar, wodurch man jede einzelne LED selbst&auml;ndig und Individuell einstellen kann. Das alles zusammen
@@ -91,7 +106,7 @@
                         <td class="head">Vielf&auml;ltig<br><br>Sie kaufen hier nicht nur ein Schallabsorber, der in seiner sch&ouml;nheit
                         kaum zu &uuml;bertreffen scheint, sonder auch ein Hingucker für jederman, auch wenn Sie ein Schallabsorber
                         nicht unbedingt von n&ouml;ten haben. </td>
-                        <td><img src="images/RGB_Spiegel.jpg" alt="Picture" class="image" style="width:45%"></td>
+                        <td><img src="images/Spiegel1.png" alt="Picture" class="image" style="width:45%"></td>
                     </tr>
                 </table>
             </div>
@@ -104,12 +119,12 @@
                 
             <div class="Andere_Produkte">
                 <div class="Other_Productsre">
-                    <a href="spiegel.php"><img src="images/RGB_Spiegel.jpg" alt="Picture" class="image" style="width:7%"></a>
+                    <a href="spiegel.php"><img src="images/Spiegel1.png" alt="Picture" class="image" style="width:7%"></a>
                     <p>Soundmirror</p>
                 </div>
                 
                 <div class="Other_Productsli">
-                    <a href="soundmirror.php"><img src="images/RGB_Spiegel.jpg" alt="Picture" class="image" style="width:7%"></a>
+                    <a href="soundmirror.php"><img src="images/Spiegel1.png" alt="Picture" class="image" style="width:7%"></a>
                     <p>RGB Spiegel</p>
                 </div>
             </div>

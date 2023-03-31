@@ -30,25 +30,27 @@
         <section class="Impressum">
             <div class="Kontakt">
                 <h2>Impressum und Kontakt</h2><br><br>
-                    <h3>Sebastian Rieg</h3><br>
+                <h3>Sebastian Rieg</h3><br>
+                    <p>Danneckerweg 22</p>
+                    <p>88239 Wangen im Allg&auml;u</p>
+                    <br>
+                    <p>Telefon: 07522 930660</p>
+                    <p>E-Mail: sebastian.rieg@gmx.de</p><br><br>
+                <h3>Vertretungsbefugt</h3><br>
+                    <h4>Ersteller: Sebastian Rieg</h4><br>
                         <p>Danneckerweg 22</p>
                         <p>88239 Wangen im Allg&auml;u</p>
                         <br>
                         <p>Telefon: 07522 930660</p>
                         <p>E-Mail: sebastian.rieg@gmx.de</p><br><br>
-                    <h3>Vertretungsbefugt</h3><br>
-                        <h4>Ersteller: Sebastian Rieg</h4><br>
-                            <p>Danneckerweg 22</p>
-                            <p>88239 Wangen im Allg&auml;u</p>
-                            <br>
-                            <p>Telefon: 07522 930660</p>
-                            <p>E-Mail: sebastian.rieg@gmx.de</p><br><br>
-                    <h3>Verantwortliche i.S.d. &sect; 55 Abs. 2 RStV:</h3><br>
-                        <p>Sebastian Rieg, Danneckerweg 22, 88239 Wangen im Allg&auml;u</p>
+                <h3>Verantwortliche i.S.d. &sect; 55 Abs. 2 RStV:</h3><br>
+                    <p>Sebastian Rieg, Danneckerweg 22, 88239 Wangen im Allg&auml;u</p>
             </div>
             <div class="Info">
-                <!--<a href=”https://www.disclaimer.de/disclaimer.htm?″ target="blank">Haftungsausschluss</a>-->
-                <a href="https://de.w3docs.com/" target="_blank">Selber eine Internetseite Programmieren?</a>
+                <!--<a href=”https://www.disclaimer.de/disclaimer.htm?″ target="blank">Haftungsausschluss</a>   
+                habs versucht, hatte leider keine Berechtigung die Seite über den Link zu öffnen-->
+                <a href="https://de.w3docs.com/" target="_blank">Selber eine Internetseite Programmieren?</a><!-- dieser Link kann außerhalb der grau-weißen Box sein,
+                 obwohl ich die angaben in Prozent gemacht habe liegt es wahrscheinlich daran, dass die Schulcomputer das format ultrawide haben.-->
             </div>
         </section>
         

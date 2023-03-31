@@ -19,13 +19,13 @@
     </div>
 
     <div class="product">
-        <img src="images/RGB_Spiegel.avif" alt="Product Image">
+        <img src="images/Sound1.png" alt="Product Image">
     </div>
 
     <div class="thumbnail">
-        <a href="images/RGB_Spiegel.avif" target="blank"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image"></a>
-        <a href="images/RGB_Spiegel.avif" target="blank"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image"></a>
-        <a href="images/RGB_Spiegel.avif" target="blank"><img src="images/RGB_Spiegel.avif" alt="Picture" class="image"></a>
+        <a href="images/Sound2.png" target="blank"><img src="images/Sound2.png" alt="Picture" class="image"></a>
+        <a href="images/Sound1.png" target="blank"><img src="images/Sound1.png" alt="Picture" class="image"></a>
+        <a href="images/Sound3.png" target="blank"><img src="images/Sound3.png" alt="Picture" class="image"></a>
     </div>
 
     <div class="texth2">
